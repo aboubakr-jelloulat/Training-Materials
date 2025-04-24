@@ -73,7 +73,9 @@ void	Materials()
 
 	auto i = lower_bound(v.begin(), v.end(), 7);
 
-	cout << "upper bound " << *it << "\nlower bound is : " << *i << endl; 
+	//cout << "upper bound " << *it << "\nlower bound is : " << *i << endl; 
+
+	cout << v.size() << v.capacity() << endl;
 
 
 
