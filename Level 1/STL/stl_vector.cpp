@@ -75,7 +75,14 @@ void	Materials()
 
 	//cout << "upper bound " << *it << "\nlower bound is : " << *i << endl; 
 
-	cout << v.size() << v.capacity() << endl;
+	v.push_back(1);
+	v.push_back(1);
+	v.push_back(1);
+	v.push_back(1);
+	v.push_back(1);
+	v.push_back(1);
+	v.push_back(1);
+	cout << "size :  " <<  v.size() <<  "\ncapacity : " <<  v.capacity() << endl;  // 42 capacity 
 
 
 
