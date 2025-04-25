@@ -1,11 +1,31 @@
 #include <iostream>
 #include <algorithm>
 #include <vector>
-#include <pair>
+#include <utility>
 using namespace std;
 
 void	intro()
 {
+
+	// **************   pair ***************
+
+	// pair <int, int> 	mypair;
+
+	// cin >> mypair.first >> mypair.second;
+
+	// cout << mypair.first << endl << mypair.second << endl;
+
+
+	// ************  Array of pair *************
+
+	// pair <int, int> parr[100];
+
+	// for (int i = 0; i < 3; i++)
+	// 	cin >> parr[i].first >> parr[i].second;
+	
+
+	// for (int i = 0; i < 3; i++)
+	// 	cout << parr[i].first << "  " << parr[i].second << endl;
 
 
 }
