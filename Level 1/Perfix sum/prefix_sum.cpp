@@ -31,6 +31,10 @@ void PrefixSum()
 
 	cout << prfx[n - 1] - prfx[2];  == // 9
 
+	// To calculate the sum between range [i, j]
+	//
+	// formula =  A[i,j] = A[j] - A[i - 1];
+
 
 }
 
